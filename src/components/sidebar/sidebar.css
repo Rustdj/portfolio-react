@@ -1,0 +1,16 @@
+.nav {
+    grid-area: n;
+    background-color: rgb(82, 82, 122);
+    height: 960px;
+    width: 200px;
+    color: #fff;
+    padding-top: 30px;
+}
+.item {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 60px;
+    margin-left: 21px;
+    cursor: pointer;
+    font-size: 23px;
+    
+}
