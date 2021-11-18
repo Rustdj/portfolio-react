@@ -6,6 +6,10 @@
     color: #fff;
     padding-top: 30px;
 }
+.item:hover a {
+    transition: 0.5s;
+    color: cadetblue;
+}
 .item {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 60px;
@@ -14,3 +18,11 @@
     font-size: 23px;
     
 }
+a {
+    color: #fff;
+}
+
+.active {
+    color: rgb(179, 93, 24);
+}
+

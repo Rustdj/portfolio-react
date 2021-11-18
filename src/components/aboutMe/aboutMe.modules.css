@@ -1,0 +1,13 @@
+.about img {
+    width: 100%;
+    height: 100%;
+}
+.about {
+    background-color: aqua;
+    /* background-image: url('https://media.kasperskydaily.com/wp-content/uploads/sites/90/2019/09/11144227/internet-in-space-featured-1.jpg'); */
+    color: beige;
+}
+
+.active {
+    color: #000; 
+}

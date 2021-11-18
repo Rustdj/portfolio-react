@@ -1,9 +1,9 @@
 import React from 'react';
-import './sidebar.css';
+import './sidebar.modules.css';
 import { NavLink } from 'react-router-dom';
-import AboutMe from '../aboutMe/aboutMe';
 
-const Sidebar = (props) => {
+
+const Sidebar = () => {
     return (
         <nav className='nav'>
             <div className='item'>

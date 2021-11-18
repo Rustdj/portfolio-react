@@ -9,21 +9,25 @@ import React from 'react';
 
 
 
-function App(props) {
+function App() {
   return (
       <BrowserRouter>
           <div className='wrapper'>
                 <Header/>
-                <Content/>
+                {/* <Content/> */}
                 <Sidebar />
             <Routes>
-                <Route path='/about' components={AboutMe}/>
-                <Route path='/expirience' components={Expirience}/>
+                <Route path='/' element={<Content/>}/>
+                <Route path='/about' element={<AboutMe/>}/>
+                <Route path='/expirience' element={<Expirience/>}/>
+                <Route path='/home' element={<Content/>}/>
             </Routes>
         </div>
       </BrowserRouter>
     
   );
 }
+
+
 
 export default App;

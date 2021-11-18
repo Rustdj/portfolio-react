@@ -1,13 +1,14 @@
 import React from 'react'
-import './aboutMe.css';
+import './aboutMe.modules.css';
+import paper from './paper.jpeg';
 
 
-const AboutMe = (props) => {
+const AboutMe = () => {
     
     return (
         <div className='about'>
-            <img href='https://media.kasperskydaily.com/wp-content/uploads/sites/90/2019/09/11144227/internet-in-space-featured-1.jpg'></img>
-            AboutMe
+            <img src={paper}></img>
+            <h1>AboutMe</h1> 
         </div>
     )
 }

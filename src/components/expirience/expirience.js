@@ -1,9 +1,9 @@
 import React from 'react'
-import './expirience.css';
+import './expirience.modules.css';
 
 const Expirience = (props) => {
     return (
-        <div>
+        <div className='main'>
             Expiriense
         </div>
     )
