@@ -1,0 +1,44 @@
+.experience {
+    background-image: url('https://www.skillshare.com/blog/wp-content/uploads/2021/07/Wrinkle-Paper-Textures-2-Deeezy-4.jpeg');
+    background-size: 166%;
+}
+.experience__title {
+    text-align: center;
+}
+.experience__subtitle {
+    text-align: center;
+}
+.divider {
+    border: 1px solid;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.experience__wrapper {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    justify-content: center;
+    margin-top: 50px;
+    column-gap: 30px;
+}
+.experience__column {
+    text-align: center;
+}
+.experience__column-title {
+    margin-left: 37px
+}
+
+.experience__item {
+    margin-top: 45px;
+}
+
+.experience__item-body {
+    color: #000;
+}
+li {
+    list-style-type: none;
+}
+a {
+    color: #000;
+}

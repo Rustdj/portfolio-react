@@ -8,9 +8,8 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div className='headerTop'>
-            
-            <NavLink to='/home'><img src={logo}/> </NavLink>
+        <div className='headerTop'>  
+            <NavLink to='/home'><img src={logo}/></NavLink>
         </div>
     )
 }

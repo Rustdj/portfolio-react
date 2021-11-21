@@ -3,7 +3,7 @@ import Header from './components/header/header';
 import Content from './components/content/content';
 import Sidebar from './components/sidebar/sidebar';
 import AboutMe from './components/aboutMe/aboutMe';
-import Expirience from './components/expirience/expirience';
+import Experience from './components/experience/experience';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import React from 'react';
 
@@ -19,7 +19,7 @@ function App() {
             <Routes>
                 <Route path='/' element={<Content/>}/>
                 <Route path='/about' element={<AboutMe/>}/>
-                <Route path='/expirience' element={<Expirience/>}/>
+                <Route path='/experience' element={<Experience/>}/>
                 <Route path='/home' element={<Content/>}/>
             </Routes>
         </div>

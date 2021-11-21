@@ -10,7 +10,7 @@ const Sidebar = () => {
                 <NavLink to='/about'>AboutMe</NavLink>
             </div>
             <div className='item'>
-                <NavLink to='/expirience'>Expirience</NavLink>
+                <NavLink to='/experience'>Experience</NavLink>
             </div>
             <div className='item'>
                 <NavLink to='/skills'>Skills</NavLink>
