@@ -38,7 +38,11 @@
 }
 li {
     list-style-type: none;
+} a
+.experience__item-head a {
+    color: #000;
 }
-a {
+
+.resume__item-location {
     color: #000;
 }

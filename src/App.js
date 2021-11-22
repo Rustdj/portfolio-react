@@ -4,6 +4,7 @@ import Content from './components/content/content';
 import Sidebar from './components/sidebar/sidebar';
 import AboutMe from './components/aboutMe/aboutMe';
 import Experience from './components/experience/experience';
+import Skills from './components/skills/skills';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import React from 'react';
 
@@ -17,10 +18,11 @@ function App() {
                 {/* <Content/> */}
                 <Sidebar />
             <Routes>
-                <Route path='/' element={<Content/>}/>
-                <Route path='/about' element={<AboutMe/>}/>
-                <Route path='/experience' element={<Experience/>}/>
-                <Route path='/home' element={<Content/>}/>
+                <Route path='/' element={<Content/>} />
+                <Route path='/about' element={<AboutMe/>} />
+                <Route path='/experience' element={<Experience/>} />
+                <Route path='/home' element={<Content/>} />
+                <Route path='/skills' element={<Skills/>} />
             </Routes>
         </div>
       </BrowserRouter>
