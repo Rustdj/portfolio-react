@@ -1,0 +1,38 @@
+.skills {
+    background: url('https://media.proglib.io/wp-uploads/2018/12/1.jpeg');
+    background-size: 100%;
+}
+
+.skills__items {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(3, 250px);
+    grid-gap: 40px;
+    margin-left: 20px;
+    padding-top: 40px;
+}
+
+.skills__wrapper {
+    border: 1px solid rgb(45, 39, 53);
+    border-radius: 5px;
+    box-shadow: 3px 3px 30px #a29c9c;
+    background-color: darkgray;
+}
+.skills__icon {
+    margin: 20px;
+}
+.header {
+    margin-left: 25px;
+}
+.descr {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.skills__name {
+    text-align: center;
+    color: #fff;
+}
+.skills__header {
+    text-align: center;
+    color: #fff;
+}

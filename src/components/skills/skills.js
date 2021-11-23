@@ -1,5 +1,5 @@
 import React from 'react'
-import './skills.module.css';
+import './skills.modules.css';
 import bootstrap from './skills/bootstrap.svg';
 import css from './skills/css3.svg';
 import figma from './skills/figma.svg';
