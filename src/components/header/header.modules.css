@@ -1,10 +1,10 @@
 .headerTop {
     grid-area: h;
-    background-color: #283566;
+    background-color: #5f6a94;
 }
 .headerTop img {
     width: 132px;
-    margin-left: 35px;
+    margin-left: 8%;
     border-radius: 100%;
     cursor: pointer;
     

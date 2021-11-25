@@ -1,8 +1,44 @@
+.portfolio {
+    background: url('https://st2.depositphotos.com/1032577/6582/i/600/depositphotos_65828845-stock-photo-portfolio-written-on-notebook.jpg');
+    background-size: 108%;
+}
+
 .portfolio__items {
     display: grid;
     grid-template-columns: repeat(4, 300px);
-    grid-template-rows: repeat(3, 250px);
+    grid-template-rows: repeat(2, 250px);
     grid-gap: 40px;
     margin-left: 20px;
-    padding-top: 40px;
+    padding-top: 70px;
+}
+
+.portfolio__wrapper {
+    border: 1px solid rgb(45, 39, 53);
+    border-radius: 5px;
+    box-shadow: 3px 3px 30px #a29c9c;
+    background-color: darkgray;
+    cursor: pointer;
+}
+.portfolio__wrapper:hover {
+    transform: translate(10px, 10px);
+    transition: 0.5s;
+}
+
+.portfolio__icon {
+    margin: 20px;
+}
+.header {
+    margin-left: 25px;
+}
+.descr {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.portfolio__name {
+    text-align: center;
+    color: rgb(39, 34, 65);
+}
+.portfolio__header {
+    text-align: center;
+    color: rgb(39, 34, 65);
 }
