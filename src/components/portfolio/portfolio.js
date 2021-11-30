@@ -22,7 +22,7 @@ const Portfolio = () => {
                 </div>
                 <div className='portfolio__items'>
                     <div className='portfolio__wrapper'>
-                            <NavLink to='/asdasd'><img src={one}  alt='work'/></NavLink>
+                        <NavLink to='/asdasd'><img src={one}  alt='work'/></NavLink>
                     </div>
                         <div className='portfolio__wrapper'>
                                 <a href='#'><img src={two}  alt='work'/></a>
