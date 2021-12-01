@@ -1,5 +1,6 @@
 import React from 'react';
 import './sidebar.modules.css';
+import { BsGithub } from 'react-icons/bs';
 import { NavLink } from 'react-router-dom';
 
 
@@ -20,6 +21,9 @@ const Sidebar = () => {
             </div>
             <div className='item'>
                 <NavLink to='/contacts'>Contacts</NavLink>
+            </div>
+            <div className='item'>
+                <NavLink to='/github'><BsGithub/></NavLink>
             </div>
         </nav>
     )

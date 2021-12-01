@@ -26,7 +26,7 @@ const Skills = () => {
                         <div className='skills__icon'>
                             <img src={bootstrap} alt='bootstrap'/>
                         </div>
-                        <div className='header'>Bootstrap</div>
+                        <div className='header'><b>Bootstrap</b></div>
                         <div className='descr'>
                         Это открытый и бесплатный HTML, CSS и 
                         JS фреймворк, который используется 
@@ -38,7 +38,7 @@ const Skills = () => {
                         <div className='skills__icon'>
                             <img src={css} alt='css'/>
                         </div>
-                        <div className='header'>CSS</div>
+                        <div className='header'><b>CSS</b></div>
                         <div className='descr'>
                         Этот язык стилей позволяет мне 
                         создавать абсолютно любой внешний
@@ -52,7 +52,7 @@ const Skills = () => {
                         <div className='skills__icon'>
                             <img src={figma} alt='figma'/>
                         </div>
-                        <div className='header'>Figma</div>
+                        <div className='header'><b>Figma</b></div>
                         <div className='descr'>
                             Это графический редактор с помощью
                             которого я создаю прототипы дизайна 
@@ -64,7 +64,7 @@ const Skills = () => {
                         <div className='skills__icon'>
                             <img src={git} alt='git'/>
                         </div>
-                        <div className='header'>Git</div>
+                        <div className='header'><b>Git</b></div>
                         <div className='descr'>
                         Cистема управления проектами и 
                         версиями кода, а также платформа 
@@ -76,7 +76,7 @@ const Skills = () => {
                         <div className='skills__icon'>
                             <img src={gulp} alt='gulp'/>
                         </div>
-                        <div className='header'>Gulp</div>
+                        <div className='header'><b>Gulp</b></div>
                         <div className='descr'>
                         Инструмент фронтенд-разработчика, 
                         который автоматизирует большинство 
@@ -87,7 +87,7 @@ const Skills = () => {
                         <div className='skills__icon'>
                             <img src={html} alt='html'/>
                         </div>
-                        <div className='header'>HTML5</div>
+                        <div className='header'><b>HTML5</b></div>
                         <div className='descr'>
                             Именно он создает каркас вашего 
                             сайта или приложения, а пятая 
@@ -100,7 +100,7 @@ const Skills = () => {
                         <div className='skills__icon'>
                             <img src={jquery} alt='jquery'/>
                         </div>
-                        <div className='header'>jQuery</div>
+                        <div className='header'><b>jQuery</b></div>
                         <div className='descr'>
                         Библиотека Jquery позволит ускорить 
                         разработку. Без необходимости интегрировать 
@@ -112,7 +112,7 @@ const Skills = () => {
                         <div className='skills__icon'>
                             <img src={js} alt='js'/>
                         </div>
-                        <div className='header'>JavaScript</div>
+                        <div className='header'><b>JavaScript</b></div>
                         <div className='descr'>
                         Этот язык программирования позволяет 
                         оживить все что угодно: слайдеры, окна, 
@@ -124,7 +124,7 @@ const Skills = () => {
                         <div className='skills__icon'>
                             <img src={react} alt='react'/>
                         </div>
-                        <div className='header'>React</div>
+                        <div className='header'><b>React</b></div>
                         <div className='descr'>
                         Эта библиотека позволяет создавать 
                         web-приложения. Мы можем создать 
@@ -136,7 +136,7 @@ const Skills = () => {
                         <div className='skills__icon'>
                             <img src={sass} alt='sass'/>
                         </div>
-                        <div className='header'>Sass/Scss</div>
+                        <div className='header'><b>Sass/Scss</b></div>
                         <div className='descr'>
                         Это один из самых развитых, стабильных 
                         и многофункциональных препроцессоров
